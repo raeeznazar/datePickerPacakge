@@ -1,0 +1,37 @@
+{
+  "name": "react-native-date-range-input",
+  "version": "0.1.0",
+  "description": "A themeable React Native date-range picker input with a modal calendar (start/end selection, apply/clear actions).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "date-range",
+    "date-picker",
+    "calendar",
+    "expo"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "dayjs": ">=1.11.0",
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0",
+    "react-native-ui-datepicker": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "dayjs": "^1.11.23",
+    "react": "^19.2.3",
+    "react-native": "^0.86.2",
+    "react-native-ui-datepicker": "^3.3.0",
+    "typescript": "^5.6.0"
+  }
+}
